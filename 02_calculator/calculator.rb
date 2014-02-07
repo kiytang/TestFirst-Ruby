@@ -26,7 +26,7 @@ end
 # 	result
 # end
 
-#exponent (power
+#exponent (power)
 def power(a,b)
 	a**b
 end
@@ -41,6 +41,14 @@ def factorial(number)
 	number.downto(1).reduce(:*)
 	end
 end
+
+# def fact(number)
+#   if number == 0
+#     1
+#   else
+#     number * fact(number-1)
+#   end
+# end
 
 puts factorial(0) 
 
